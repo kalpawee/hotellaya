@@ -36,7 +36,7 @@ header li a{
     color: white;
     padding: 5px 20px;
     border: 1px solid transparent;
-    transition: 0.5 ease;
+    transition: ease;
 
 }
 
@@ -126,10 +126,12 @@ header li.active a{
 
 }
 
-.event2-button button{
+.event2-button .button{
     font-family: cursive;
     background-color:rgb(211, 45, 45);
     border: none;
+    text-decoration: none;
+    color: bisque;
     border-radius: 10px;
     transition: 0.5s;
     font-weight: 500;
@@ -184,12 +186,8 @@ header li.active a{
     margin-right: 4rem;
 }
 
-.footer-heading h2{
-    margin-bottom: zero;
-}
-.footer-headings h2{
-    margin-bottom: zero;
-}
+
+
 
 .footer-heading ul{
     list-style: none;

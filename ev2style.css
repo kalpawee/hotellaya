@@ -38,7 +38,7 @@ header li a{
     color: rgba(190, 174, 249, 0.889);
     padding: 5px 20px;
     border: 1px solid transparent;
-    transition: 0.5 ease;
+    transition:  ease;
     
 
 
@@ -104,10 +104,12 @@ body{
 
 }
 
-.event2-button button{
+.event2-button .button{
     font-family: bold;
+    color: beige;
     background-color:rgb(109, 102, 102);
     border: none;
+    text-decoration: none;
     border-radius: 15px;
     transition: 0.3s;
     font-weight: 400;
@@ -165,12 +167,7 @@ body{
     margin-right: 4rem;
 }
 
-.footer-heading h2{
-    margin-bottom: zero;
-}
-.footer-headings h2{
-    margin-bottom: zero;
-}
+
 
 .footer-heading ul{
     list-style: none;
