@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header{
+    background-image:url(./wedding2.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+}
+
+header ul{
+    float: right;
+    list-style: none;
+    margin: 40px;
+    min-height: 450px;
+    margin-right: 60px;
+    font-size: 20px;
+
+}
+
+header li{
+    display: inline;
+
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
+}
+
+header li a:hover{
+    background-color: rgb(114, 90, 231);
+    color: black;
+
+}
+
+header li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.main{
+    max-width: 100%;
+    margin: auto;
+
+}
+ /* animation */
+
+
+.wedding-img {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 520px;
+    margin-top: 50px;
+}
+
+
+.wedding-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.animated1 {
+    animation: fade 4s infinite;
+}
+
+.animated2 {
+    animation: fade 4s infinite alternate;
+}
+
+
+
+
+.wedding-desc h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.wedding-desc p{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #f6c8ce;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -15px;
+
+}
+
+.event2-button button{
+    font-family: cursive;
+    background-color:rgb(211, 45, 45);
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    margin-right: 40px;
+    float: right;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.footer .logo{
+    margin-right: 40px;
+}
+
+.footer-container{
+    background-color: #140204;
+    padding: 4rem 0 4rem 0;
+    margin-top: 100px;
+}
+
+.footer{
+    width: 80%;
+    height: 20vh;
+    background-color:  #140204;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    font-size: 17px;
+
+}
+.footer-headings{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: zero;
+}
+.footer-headings h2{
+    margin-bottom: zero;
+}
+
+.footer-heading ul{
+    list-style: none;
+}
+
+.footer-heading li{
+    margin-top: 10px;
+}
+
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+
+.footer-heading li a:hover{
+    color: rgb(43, 0, 255);
+    transition: 0.3s ease-out;
+}

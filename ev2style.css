@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header{
+    background-image:url(./birthday1.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+}
+
+header ul{
+    float: right;
+    list-style: none;
+    margin: 40px;
+    min-height: 450px;
+    margin-right: 60px;
+    font-size: 20px;
+    
+
+}
+
+header li{
+    display: inline;
+   
+
+}
+
+header li a{
+    text-decoration: none;
+    color: rgba(190, 174, 249, 0.889);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    
+
+
+}
+
+header li a:hover{
+    background-color: rgb(240, 40, 40);
+    color: black;
+
+}
+
+header li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.main{
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+body{
+    background-color: #c7d0ec;
+}
+
+.birthday{
+    display: flex;
+    margin-top: 40px;
+    background-color: #233776;
+    
+}
+.wedding-img img{
+    
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.wedding-desc h2{
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
+
+.wedding-desc p{
+    margin-top: 30px;
+
+    margin-right: -300px;
+    
+    
+
+}
+
+.event2-button button{
+    font-family: bold;
+    background-color:rgb(109, 102, 102);
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 90px;
+    margin-left: 40px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer .logo{
+    margin-right: 40px;
+}
+
+.footer-container{
+    background-color: #233776;
+    padding: 4rem 0 4rem 0;
+    margin-top: 100px;
+}
+
+.footer{
+    width: 80%;
+    height: 20vh;
+    background-color:  #233776;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    font-size: 17px;
+
+}
+.footer-headings{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: zero;
+}
+.footer-headings h2{
+    margin-bottom: zero;
+}
+
+.footer-heading ul{
+    list-style: none;
+}
+
+.footer-heading li{
+    margin-top: 10px;
+}
+
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+
+.footer-heading li a:hover{
+    color: rgb(43, 0, 255);
+    transition: 0.3s ease-out;
+}

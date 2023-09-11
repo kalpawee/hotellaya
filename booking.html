@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laya hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- this is the header section -->
+    <header>
+        <div class="main">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="./logo4.png" >
+                </div>
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Branches.html">Branches</a></li>
+                <li><a href="resturant.html">Resturant</a></li>
+                <li><a href="adventure.html">Adventures</a></li>
+                <li class="active"><a href="booking.html">Booking</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+        <!-- this is the middle section -->
+    <div class="booking">
+        <h2>Room Booking</h2>
+    </div>
+    <div class="form">
+        <form> 
+            <div class="room">
+                <div class="room-left">
+                    <label for="branchselection">BRANCH :</label>
+                    <select id="branchselection" name="branchselection">
+                        <option value="option1">Laya Seaside</option>
+                        <option value="option2">Laya Riverview</option>
+                        <option value="option3">Laya Jungle</option>
+                    </select><br>
+                    <label>NAME :</label>  <input type="text" name="fname" required="required"/><br>
+                    <label>ADULTS : </label> <input type="number" min="1" required="required"/><br>
+                    <label>CHILDREN : </label> <input type="number" min="0" required="required"/><br>
+                </div>
+                <div class="romm-right">
+                    <label>FROM : </label>  <input type="date" name="fromdate" required="required"/> <br>
+                    <label>TO : </label>  <input type="date" name="todate" required="required"/><br>
+                    <label for="email">EMAIL :</label>  <input type="email" name="emailid" required="required"/><br>
+
+
+
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Book Now"/>
+            </div>
+            
+
+        </form>
+    </div>
+    <div class="booking">
+        <h2>Adventure Booking</h2>
+    </div>
+
+    <div class="form2">
+        <form> 
+            <div class="room">
+                <div class="room-left">
+                    <label for="advselection">ADVENTURE TYPE :</label>
+                    <select id="advselection" name="advselection">
+                        <option value="option1">Diving</option>
+                        <option value="option2">Snorkling</option>
+                        <option value="option3">Camping</option>
+                        <option value="option3">Hiking</option>
+                    </select><br>
+                    <label>NAME :</label>  <input type="text" name="fname" required="required"/><br>
+                </div>
+                <div class="romm-right">
+                    <label>DATE : </label>  <input type="date" name="todate" required="required"/><br>
+                    <label for="email">EMAIL :</label>  <input type="email" name="emailid" required="required"/><br>
+                   
+
+
+
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Book Now"/>
+            </div>
+
+        </form>
+    </div>
+     <!-- this is the footer section -->
+    
+        <div class="footer-container">
+            <div class="footer">
+                <a href="index.html">
+                    <div class="logo">
+                        <img src="./logo4.png" >
+                    </div>
+                </a>
+                <div class="footer-headings footer1">
+                    <h2>Address</h2>
+                    <ul><li>131/2, Gangula, Horana</li></ul>
+                    <h2>Contact</h2>
+                    <ul><li>+94777408423</li></ul>
+                    <h2>Email</h2>
+                    <ul><li>hotel@gmail.com</li></ul>
+                </div>
+                <div class="footer-heading footer2">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Branches.html">Branches</a></li>
+                        <li><a href="resturant.html">Resturant</a></li>
+                        <li><a href="adventure.html">Adventures</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-heading footer3">
+                    <h2>Social Media</h2><br>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Youtube</a>
+                    <a href="#">Twitter</a>   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
