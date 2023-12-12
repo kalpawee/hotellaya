@@ -326,40 +326,41 @@ label{
 .room-left{
     margin-right: 40px;
 }
-.form{
+.room{
     
     border-radius: 10px;
     background-color:#90939c;
     color: rgb(12, 12, 12);
-    width: 800px;
+    width: 1000px;
     padding: 10px;
     padding-bottom: 50px;
-    padding-top: 20px;
     margin-bottom: 50px;
+    padding-top: 20px;
     margin-left: 300px;
 }
 
-.form2{
+
+.bu{
+
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
     
-    border-radius: 10px;
-    background-color:#90939c;
-    color: rgb(12, 12, 12);
-    width: 800px;
-    padding: 10px;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 300px;
+
 }
+
 
 .room label{
     margin-top: 10px;
 }
 
-.submit{
-    float: right;
-    margin-top: 15px;
-}
+
 
 
 
